@@ -1,0 +1,15 @@
+gui-title: "&cRemote test gui"
+rows: 5
+mode: "set"
+close: false #Whether slots by default will close or not
+locations: 
+- "0,64,0,world"
+npc-ids:
+- '5'
+
+
+'1':
+  icon: "BEDROCK"
+  name: "&fConsole command test"
+  functions:
+  - "executec: say Broadcasting from console, this test passed"
